@@ -1,0 +1,24 @@
+{
+  "name": "employee_api",
+  "version": "1.0.0",
+  "description": "A simple api that contains the details of the employees of a company",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Cynthia Ilojeme",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
